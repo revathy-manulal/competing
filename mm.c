@@ -33,10 +33,10 @@ int main ()
 
   int k;
   qsort (boys, n, sizeof(int), compare);
-  for (k=0; k<6; n++)
+  for (k=0; k<n; k++)
      printf ("%d\n ",boys[n]);
  qsort (girls, n, sizeof(int), compare);
-  for (k=0; k<6; n++)
+  for (k=0; k<n; k++)
      printf ("%d\n ",girls[n]);
   return 0;
 }
