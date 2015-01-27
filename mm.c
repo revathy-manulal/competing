@@ -66,10 +66,6 @@ if(t<=100)
   
 }
   }
-
-<<<<<<< HEAD
-  
-=======
   int k;
   qsort (boys, n, sizeof(int), compare);
   for (k=0; k<n; k++)
@@ -77,7 +73,6 @@ if(t<=100)
  qsort (girls, n, sizeof(int), compare);
   for (k=0; k<n; k++)
      printf ("%d\n ",girls[n]);
->>>>>>> 85f3af4054e3177b103901b74e027080430b8244
   return 0;
 }
 
